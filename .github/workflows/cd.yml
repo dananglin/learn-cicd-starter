@@ -18,4 +18,4 @@ jobs:
       with:
         go-version: '1.23.2'
     - name: Build notely
-      runs: scripts/buildprod.sh
+      run: scripts/buildprod.sh
